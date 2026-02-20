@@ -6,7 +6,7 @@ const NavBar = () => {
 
     return (
         <header>
-            <nav className={'pl-4 pr-4'}>
+            <nav className={'p-5'}>
                 <img src="/logo.svg" alt="Apple logo" />
 
                 <ul  >
