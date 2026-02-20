@@ -23,6 +23,7 @@
 
 * {
     scrollbar-color: var(--color-dark-100) var(--color-black);
+
 }
 
 :root {
@@ -142,10 +143,10 @@ body {
     }
 
     #product-viewer {
-        @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40;
+        @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40 ;
 
         h2 {
-            @apply text-white font-semibold text-3xl lg:text-6xl;
+            @apply text-white font-semibold text-3xl 2xl:ml-10 lg:text-6xl;
         }
 
         .controls {
