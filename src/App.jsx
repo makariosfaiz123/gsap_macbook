@@ -3,7 +3,7 @@ import NavBar from "./Components/NavBar.jsx";
 import Hero from "./Components/Hero.jsx";
 import ProductViewer from "./Components/ProductViewer.jsx";
 import gsap from "gsap";
-import {ScrollTrigger , SplitText} from  "gsap/all";
+import {ScrollTrigger } from  "gsap/all";
 import Showcase from "./Components/Showcase.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
