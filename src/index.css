@@ -91,7 +91,7 @@ body {
 
 @layer components {
     header {
-        @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh];
+        @apply w-screen fixed top-0 left-0 z-100 flex-center bg-black min-h-[7vh] ;
 
         nav {
             @apply container mx-auto flex-between px-5 2xl:px-0;
@@ -189,14 +189,14 @@ body {
             @apply relative lg:overflow-hidden;
 
             video {
-                @apply w-full object-cover object-center;
+                @apply w-full xl:h-200 object-cover object-center overflow-hidden;
             }
 
             .mask {
                 @apply absolute h-full top-0 lg:-top-20 xl:top-0;
 
                 img {
-                    @apply h-full scale-150 lg:scale-100;
+                    @apply h-full w-400 scale-150 lg:scale-100;
                     transform: matrix(80, 0, 0, 80, 0, 0);
                 }
 
