@@ -28,6 +28,8 @@ const  moveGroup = (group, x) => {
 const ModelSwitcher = ({scale , isMobile}) => {
     const SCALE_LARGE_DESKTOP = 0.08;
     const SCALE_LARGE_MOBILE = 0.05;
+    const SCALE_SMALL_DESKTOP = 0.06;
+    const SCALE_SMALL_MOBILE = 0.03;
     const smallMacbook = useRef();
     const largeMacbook = useRef();
 
@@ -62,13 +64,13 @@ const ModelSwitcher = ({scale , isMobile}) => {
         <>
             <PresentationControls {... controlsConfig}>
                 <group ref={largeMacbook}>
-                    <MacBookModel16 scale={isMobile ?  0.05 : 0.08}/>
+                    <MacBookModel16 scale={isMobile ? SCALE_LARGE_MOBILE : SCALE_LARGE_DESKTOP}/>
                 </group>
             </PresentationControls>
 
             <PresentationControls {... controlsConfig}>
                 <group ref={smallMacbook}>
-                    <MacBookModel14 scale={isMobile ?  0.03 : 0.06}/>
+                    <MacBookModel14 scale={isMobile ? SCALE_SMALL_MOBILE : SCALE_SMALL_DESKTOP}/>
                 </group>
             </PresentationControls>
         </>
