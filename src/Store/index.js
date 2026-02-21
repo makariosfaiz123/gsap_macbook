@@ -7,7 +7,10 @@ const useMacBookStore = create((set)=>({
     scale : 0.08,
     setScale: (scale)=>set({scale}),
 
-    reset: ()=>set({color:'2e2c2e',scale : 0.08}),
+    textrue : '/videos/feature-1.mp4',
+    setTextrue: (textrue)=>set({textrue}),
+
+    reset: ()=>set({color:'2e2c2e',scale : 0.08 , textrue : '/videos/feature-1.mp4'}),
 }));
 
 export default useMacBookStore ;
