@@ -10,7 +10,7 @@ const Footer = () => {
                     or
                     <span className={"text-primary mx-0.5 cursor-pointer"}>other retailer</span>
                     near you. Or call 000800 040 1966 </p>
-                <img src={"/logo.svg"} className={"Apple logo"} />
+                <img src={"/logo.svg"} alt={"Apple logo"} />
             </div>
 
             <hr/>
