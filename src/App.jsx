@@ -6,9 +6,9 @@ import gsap from "gsap";
 import {ScrollTrigger } from  "gsap/all";
 import Showcase from "./Components/Showcase.jsx";
 import Performance from "./Components/performance.jsx";
-import Featrues from "./Featrues.jsx";
-import Highlights from "./Highlights.jsx";
-import Footer from "./Footer.jsx";
+import Featrues from "./Components/Featrues.jsx";
+import Highlights from "./Components/Highlights.jsx";
+import Footer from "./Components/Footer.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 const App = () => {
