@@ -189,7 +189,7 @@ body {
             @apply relative lg:overflow-hidden;
 
             video {
-                @apply w-full xl:h-200 object-cover object-center overflow-hidden;
+                @apply w-full xl:h-280 object-cover object-center overflow-hidden;
             }
 
             .mask {
