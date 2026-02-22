@@ -193,10 +193,10 @@ body {
             }
 
             .mask {
-                @apply absolute h-full top-0 lg:-top-20 xl:top-0;
+                @apply absolute w-full h-full top-0 lg:-top-20 xl:top-0;
 
                 img {
-                    @apply h-full w-400 scale-150 lg:scale-100;
+                    @apply w-full w-400 scale-150 lg:scale-100;
                     transform: matrix(80, 0, 0, 80, 0, 0);
                 }
 
