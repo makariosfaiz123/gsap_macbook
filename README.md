@@ -1,16 +1,27 @@
-# React + Vite
+# 💻 Apple MacBook Pro 3D Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive, high-end 3D landing page featuring the MacBook Pro. Built with **React**, **Three.js**, and **GSAP**, this project demonstrates advanced 3D rendering and cinematic scroll-driven animations.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View Live Experience](https://gsap-macbook-lovat.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Technical Features
+- **3D Interactive Rendering:** High-fidelity MacBook model using `@react-three/fiber` and `@react-three/drei`.
+- **Cinematic Animations:** Precise scroll-triggered transformations and camera paths using **GSAP ScrollTrigger**.
+- **Advanced State Management:** Efficient component lifecycle control using **React Hooks**.
+- **Performance Optimized:** Smooth 60 FPS experience through optimized 3D asset loading.
+- **Modern Styling:** Fully responsive UI built with **Tailwind CSS**.
 
-## React Compiler
+## 🛠️ Tech Stack & Tools
+- **Frontend:** React.js, Next.js, TypeScript.
+- **3D/Animation:** Three.js, GSAP (GreenSock).
+- **Styling:** Tailwind CSS, SCSS.
+- **Tools:** Vite, Git/GitHub.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Getting Started
+1. Clone the repo: `git clone https://github.com/makariosfaiz123/gsap_macbook.git`
+2. Install dependencies: `npm install`
+3. Start dev server: `npm run dev`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Developed with focus on **Creative Frontend** by [Makarios Faiz](https://github.com/makariosfaiz123)
