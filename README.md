@@ -3,7 +3,7 @@
 An immersive, high-end 3D landing page featuring the MacBook Pro. Built with **React**, **Three.js**, and **GSAP**, this project demonstrates advanced 3D rendering and scroll-driven animations on the web.
 
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/65363ece-735f-4d3d-921f-c12e009e5b63" />
+<img width="1694" height="1007" alt="image" src="https://github.com/user-attachments/assets/6629ee41-e3cb-4203-9546-e7835293a3f9" />
 
 
 ## 🚀 Live Demo
