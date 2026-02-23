@@ -1,22 +1,26 @@
 # 💻 Apple MacBook Pro 3D Showcase
 
-An immersive, high-end 3D landing page featuring the MacBook Pro. Built with **React**, **Three.js**, and **GSAP**, this project demonstrates advanced 3D rendering and cinematic scroll-driven animations.
+An immersive, high-end 3D landing page featuring the MacBook Pro. Built with **React**, **Three.js**, and **GSAP**, this project demonstrates advanced 3D rendering and scroll-driven animations on the web.
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/65363ece-735f-4d3d-921f-c12e009e5b63" />
+
 
 ## 🚀 Live Demo
-[View Live Experience](https://gsap-macbook-lovat.vercel.app/)
+Check out the live experience here: [Live Demo](https://gsap-macbook-lovat.vercel.app/)
 
-## ✨ Key Technical Features
-- **3D Interactive Rendering:** High-fidelity MacBook model using `@react-three/fiber` and `@react-three/drei`.
-- **Cinematic Animations:** Precise scroll-triggered transformations and camera paths using **GSAP ScrollTrigger**.
-- **Advanced State Management:** Efficient component lifecycle control using **React Hooks**.
-- **Performance Optimized:** Smooth 60 FPS experience through optimized 3D asset loading.
-- **Modern Styling:** Fully responsive UI built with **Tailwind CSS**.
+## ✨ Key Features
+- **3D Interactive Model:** High-fidelity MacBook Pro model rendered using React Three Fiber.
+- **Scroll-Triggered Animations:** Smooth, cinematic camera movements and model scaling driven by GSAP ScrollTrigger.
+- **Dynamic Lighting:** Real-time environment mapping and lighting effects for a premium feel.
+- **Responsive Design:** Fully optimized for different screen sizes while maintaining 60 FPS performance.
+- **Floating UI:** Interactive HTML elements integrated directly into the 3D scene.
 
-## 🛠️ Tech Stack & Tools
-- **Frontend:** React.js, Next.js, TypeScript.
-- **3D/Animation:** Three.js, GSAP (GreenSock).
-- **Styling:** Tailwind CSS, SCSS.
-- **Tools:** Vite, Git/GitHub.
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Next.js (if applicable)
+- **3D Engine:** Three.js, @react-three/fiber, @react-three/drei
+- **Animation:** GSAP (GreenSock Animation Platform)
+- **Styling:** Tailwind CSS / CSS Modules
 
 ## 📦 Getting Started
 1. Clone the repo: `git clone https://github.com/makariosfaiz123/gsap_macbook.git`
