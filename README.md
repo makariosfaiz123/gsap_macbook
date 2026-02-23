@@ -17,7 +17,7 @@ Check out the live experience here: [Live Demo](https://gsap-macbook-lovat.verce
 - **Floating UI:** Interactive HTML elements integrated directly into the 3D scene.
 
 ## 🛠️ Tech Stack
-- **Frontend:** React.js, Next.js (if applicable)
+- **Frontend:** React.js (Vite)
 - **3D Engine:** Three.js, @react-three/fiber, @react-three/drei
 - **Animation:** GSAP (GreenSock Animation Platform)
 - **Styling:** Tailwind CSS / CSS Modules
